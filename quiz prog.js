@@ -61,12 +61,13 @@ async function getResponceAns() {
     console.log(contentAnswer)
     const listAns = document.querySelector('.question-box')
     let key
+    console.log('test')
     for (key in contentAnswer)
         listAns.innerHTML = `
 <h2 class="qst" id="question"> ${contentAnswer[questiomMass].questions} </h2>
 `
 }
-
+п
 
 
 
